@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    *, *::before,*::after{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        background: linear-gradient(to right, #00AAFF,#00FF6C);
+    }
+    
+}
