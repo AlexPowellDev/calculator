@@ -129,7 +129,6 @@ const formatOperand = (operand) => {
   if(decimal == null) return integerFormatter.format(integer)
   return `${integerFormatter.format(integer)}.${decimal}`
 }
-
 function App() {
   const [{currentOperand, previousOperand, operation}, dispatch] = useReducer(reducer,{})
 
